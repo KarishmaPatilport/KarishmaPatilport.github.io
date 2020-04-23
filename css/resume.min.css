@@ -185,6 +185,7 @@ a:hover {
     background-size: cover !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: left;
 }
 .parat{
     color: white;
