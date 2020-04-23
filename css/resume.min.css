@@ -181,12 +181,19 @@ a:hover {
 }
 #para{
     background: url("back.jpg");
-    min-height: 100vh;
     background-size: cover !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
 }
 .parat{
     color: white;
+}
+h2::first-letter{
+    font-size: 150%;
+    color: #718846;
+    text-decoration: solid 3% underline #343a40;
+}
+#photu{
+    border: solid 20px #546437be;
 }
