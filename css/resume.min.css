@@ -189,7 +189,7 @@ a:hover {
 .parat{
     color: white;
 }
-h2::first-letter{
+h3::first-letter{
     font-size: 150%;
     color: #718846;
     text-decoration: solid 3% underline #343a40;
