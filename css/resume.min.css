@@ -9,7 +9,7 @@ body {
 @media (min-width:992px) {
     body {
         padding-top: 0;
-        padding-left: 17rem
+        padding-left: 17rem;
     }
 }
 
@@ -68,7 +68,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-    background-color: #546437
+    background-color: #9dc8e4
 }
 
 .dev-icons {
@@ -76,7 +76,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-    color: #546437
+    color: #2aace4ce
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -86,7 +86,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-    outline-color: #546437
+    outline-color: #2aace4ce
 }
 
 @media (min-width:992px) {
@@ -136,9 +136,14 @@ p.lead {
 }
 
 section.resume-section {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
     max-width: 75rem
+}
+hr{
+    height: 2px;
+    background-color: #aab0b463;
+    border: none;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -161,41 +166,43 @@ section.resume-section .resume-item .resume-date {
         padding-bottom: 3rem !important
     }
 }
-
+section{
+    background-color: rgb(241, 240, 240);
+}
 .bg-primary {
-    background-color: #546437 !important
+    background-color: #9dc8e4 !important
 }
 
 .text-primary {
-    color: #6c8048 !important
+    color: #3fa3ce !important
 }
 
 a {
-    color: #546437
+    color: #2aabe4;
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #546437
+    color: #43aedb
 }
 #para{
-    background: url("back.jpg");
+    background: url("back2.jpg");
     background-size: cover !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
 }
 .parat{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 h3::first-letter{
     font-size: 150%;
-    color: #718846;
+    color: #2aace4ce;
     text-decoration: solid 3% underline #343a40;
 }
 #photu{
-    border: solid 20px #546437be;
+    border: solid 22px #9dc8e49d;
 }
 ul{
   font-size: 1rem;
