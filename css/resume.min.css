@@ -1,7 +1,7 @@
-
 body {
-   font-family: 'Montserrat', sans-serif;
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    ;
     padding-top: 54px;
     color: #868e96
 }
@@ -135,12 +135,14 @@ p.lead {
     }
 }
 
+
 section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-    max-width: 75rem
+    max-width: 100rem
 }
-hr{
+
+hr {
     height: 2px;
     background-color: #aab0b463;
     border: none;
@@ -166,9 +168,11 @@ section.resume-section .resume-item .resume-date {
         padding-bottom: 3rem !important
     }
 }
-section{
+
+section {
     background-color: rgb(241, 240, 240);
 }
+
 .bg-primary {
     background-color: #9dc8e4 !important
 }
@@ -176,7 +180,9 @@ section{
 .text-primary {
     color: #3fa3ce !important
 }
-
+.text-primary1{
+   color: #9dc8e4 !important
+}
 a {
     color: #2aabe4;
 }
@@ -186,50 +192,56 @@ a:focus,
 a:hover {
     color: #43aedb
 }
-#para{
+
+#para {
     background: url("../img/back2.jpg");
     background-size: cover !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
 }
-.parat{
+
+.parat {
     color: rgb(0, 0, 0);
 }
-h3::first-letter{
+
+h3::first-letter {
     font-size: 150%;
     color: #2aace4ce;
     text-decoration: solid 3% underline #343a40;
 }
-#photu{
+
+#photu {
     border: solid 22px #9dc8e49d;
 }
-ul{
-  font-size: 1rem;
+
+ul {
+    font-size: 1rem;
 }
 
 @include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.1rem;
-  }
+    html {
+        font-size: 1.1rem;
+    }
 }
 
 @include media-breakpoint-up(md) {
-  html {
-    font-size: 1.3rem;
-  }
+    html {
+        font-size: 1.3rem;
+    }
 }
 
 @include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.7rem;
-  }
+    html {
+        font-size: 1.7rem;
+    }
 }
-#foot
-{
+
+#foot {
     font-size: x-large;
 
 }
-#name{
+
+#name {
     color: #868E94;
 }
